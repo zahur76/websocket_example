@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'channels',
-    'game'
+    'game',
+    'home'
 ]
 
 MIDDLEWARE = [
@@ -73,8 +74,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'tic_tac_toe.wsgi.application'
-
+# WSGI_APPLICATION = 'tic_tac_toe.wsgi.application'
+ASGI_APPLICATION = "tic_tac_toe.asgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
