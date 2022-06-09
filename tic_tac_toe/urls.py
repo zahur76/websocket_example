@@ -1,4 +1,4 @@
-"""example_channels URL Configuration
+"""tic_tac_toe URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.0/topics/http/urls/
